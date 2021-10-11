@@ -21,8 +21,8 @@ public class Otus {
     @BeforeClass
     public void StartUp(){
         WebDriverManager.chromedriver().setup();
-//        ChromeOptions options = new ChromeOptions();
-//        options.addArguments("headless");
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("headless");
         driver = new ChromeDriver();
         logger.info("Driver up");
         driver.manage().window().maximize();
@@ -30,11 +30,11 @@ public class Otus {
 
     }
 
-//    @AfterClass
-//    public void End(){
-//        if (driver!=null)
-//            driver.quit();
-//    }
+    @AfterClass
+    public void End(){
+        if (driver!=null)
+            driver.quit();
+    }
 
     private void auth() throws InterruptedException  {
         driver.get("https://otus.ru");
@@ -89,6 +89,7 @@ public class Otus {
         driver.findElement(By.xpath("//input[@id=\"id_company\"]")).sendKeys("ПАО Абсолют банк");
         driver.findElement(By.xpath("//input[@id=\"id_work\"]")).sendKeys("QA Engineer");
         driver.findElement(By.xpath("//button[@title=\"Сохранить и продолжить\"]")).click();
+        logger.info("Данные заполнены");
 
     }
 
