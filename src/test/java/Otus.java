@@ -6,6 +6,7 @@ import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -72,9 +73,11 @@ public class Otus {
             driver.findElement(By.xpath("(//div[@class=\"input input_full lk-cv-block__input lk-cv-block__input_fake lk-cv-block__input_select-fake js-custom-select-presentation\"])[1]")).click();
             driver.findElement(By.xpath("//button[@title=\"Россия\"]")).click();
         }
+        //Город
         driver.findElement(By.xpath("//input[@data-title=\"Город\"]/..//div")).click();
         driver.findElement(By.xpath("//button[@title=\"Москва\"]")).click();
         driver.findElement(By.xpath("(//div[@class=\"input input_full lk-cv-block__input lk-cv-block__input_fake lk-cv-block__input_select-fake js-custom-select-presentation\"])[3]")).click();
+        //Уровень английского
         driver.findElement(By.xpath("//button[@title=\"Элементарный уровень (Elementary)\"]")).click();
         driver.findElement(By.xpath("//input[@title=\"Полный день\"]//..")).click();
         driver.findElement(By.xpath("//span[text() = \"Способ связи\"]")).click();
@@ -102,6 +105,22 @@ public class Otus {
         //Заполнение данных
         addMy();
 
+    }
+
+    @Test
+    public void CheckPersonalArea() throws InterruptedException{
+        //Авторизация
+        auth();
+        //Переход в раздел о себе
+        my();
+        //Проверка ранее введённых данных в ЛК
+        Assert.assertEquals("Илья", driver.findElement(By.xpath("//input[@data-title=\"Имя\"]")).getAttribute("value"));
+        Assert.assertEquals("Пантиков", driver.findElement(By.xpath("//input[@data-title=\"Фамилия\"]")).getAttribute("value"));
+        Assert.assertEquals("05.07.1996", driver.findElement(By.xpath("//input[@title=\"День рождения\"]")).getAttribute("value"));
+        Assert.assertEquals("Россия", driver.findElement(By.cssSelector(".js-lk-cv-dependent-master > label:nth-child(1) > div:nth-child(2)")).getText());
+  //      Assert.assertEquals("Москва", driver.findElement(By.xpath("//input[@data-title=\"Город\"]/..//div")).getText());
+        Assert.assertEquals("Элементарный уровень (Elementary)", driver.findElement(By.xpath("//input[@data-title=\"Уровень знания английского языка\"]/..//div")).getText());
+        logger.info("Данные заполнены верно");
     }
 
     @Test
