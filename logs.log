@@ -31,3 +31,97 @@
 2021-10-08 10:41:39,070 INFO j.u.l.Logger [main] Site open
 2021-10-08 10:41:40,613 INFO j.u.l.Logger [main] Authorization path
 2021-10-08 10:41:48,145 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-08 20:37:07,146 INFO j.u.l.Logger [main] Driver up
+2021-10-08 20:37:25,176 INFO j.u.l.Logger [main] Site open
+2021-10-08 20:37:27,754 INFO j.u.l.Logger [main] Authorization path
+2021-10-08 20:37:35,768 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-08 20:57:47,767 INFO j.u.l.Logger [main] Driver up
+2021-10-08 20:57:47,909 INFO j.u.l.Logger [main] (1936, 1056)
+2021-10-08 20:57:49,157 INFO j.u.l.Logger [main] (10, 10)
+2021-10-08 20:58:42,060 INFO j.u.l.Logger [main] Driver up
+2021-10-08 20:58:42,203 INFO j.u.l.Logger [main] (1936, 1056)
+2021-10-08 20:58:43,439 INFO j.u.l.Logger [main] (10, 10)
+2021-10-08 21:19:11,644 INFO j.u.l.Logger [main] Driver up
+2021-10-08 21:19:35,424 INFO j.u.l.Logger [main] Site open
+2021-10-08 21:19:36,959 INFO j.u.l.Logger [main] Authorization path
+2021-10-08 21:25:03,702 INFO j.u.l.Logger [main] Driver up
+2021-10-08 21:25:14,848 INFO j.u.l.Logger [main] Site open
+2021-10-08 21:25:16,360 INFO j.u.l.Logger [main] Authorization path
+2021-10-08 21:25:26,094 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-08 21:27:07,114 INFO j.u.l.Logger [main] Driver up
+2021-10-08 21:27:19,945 INFO j.u.l.Logger [main] Site open
+2021-10-08 21:27:21,540 INFO j.u.l.Logger [main] Authorization path
+2021-10-08 21:27:26,493 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-08 21:27:46,683 INFO j.u.l.Logger [main] Driver up
+2021-10-08 21:28:06,062 INFO j.u.l.Logger [main] Site open
+2021-10-08 21:28:07,198 INFO j.u.l.Logger [main] Authorization path
+2021-10-08 21:28:17,197 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-10 11:33:52,254 INFO j.u.l.Logger [main] Driver up
+2021-10-10 11:33:55,022 INFO j.u.l.Logger [main] Site open
+2021-10-10 11:33:56,053 INFO j.u.l.Logger [main] Authorization path
+2021-10-10 11:34:00,264 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-10 11:36:55,317 INFO j.u.l.Logger [main] Driver up
+2021-10-10 11:36:58,477 INFO j.u.l.Logger [main] Site open
+2021-10-10 11:36:59,398 INFO j.u.l.Logger [main] Authorization path
+2021-10-10 11:37:02,888 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-10 11:50:36,303 INFO logEx [main] Тест запущен
+2021-10-11 15:00:46,619 INFO j.u.l.Logger [main] Driver up
+2021-10-11 15:01:08,901 INFO j.u.l.Logger [main] Site open
+2021-10-11 15:01:10,388 INFO j.u.l.Logger [main] Authorization path
+2021-10-11 15:01:23,611 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-11 15:23:15,567 INFO j.u.l.Logger [main] Driver up
+2021-10-11 15:23:18,672 INFO j.u.l.Logger [main] Site open
+2021-10-11 15:23:19,588 INFO j.u.l.Logger [main] Authorization path
+2021-10-11 15:23:23,209 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-11 15:24:17,307 INFO j.u.l.Logger [main] Driver up
+2021-10-11 15:24:20,091 INFO j.u.l.Logger [main] Site open
+2021-10-11 15:24:21,007 INFO j.u.l.Logger [main] Authorization path
+2021-10-11 15:24:24,600 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-11 15:28:17,271 INFO j.u.l.Logger [main] Driver up
+2021-10-11 15:28:57,202 INFO j.u.l.Logger [main] Site open
+2021-10-11 15:28:58,867 INFO j.u.l.Logger [main] Authorization path
+2021-10-11 15:29:21,304 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-11 15:37:34,263 INFO j.u.l.Logger [main] Driver up
+2021-10-11 15:37:46,698 INFO j.u.l.Logger [main] Site open
+2021-10-11 15:37:47,772 INFO j.u.l.Logger [main] Authorization path
+2021-10-11 15:37:57,508 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-11 15:46:29,668 INFO j.u.l.Logger [main] Driver up
+2021-10-11 15:46:42,021 INFO j.u.l.Logger [main] Site open
+2021-10-11 15:46:43,586 INFO j.u.l.Logger [main] Authorization path
+2021-10-11 15:46:58,356 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-11 15:47:29,504 INFO j.u.l.Logger [main] Driver up
+2021-10-11 15:47:41,691 INFO j.u.l.Logger [main] Site open
+2021-10-11 15:47:43,177 INFO j.u.l.Logger [main] Authorization path
+2021-10-11 15:47:56,549 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-11 15:53:57,160 INFO j.u.l.Logger [main] Driver up
+2021-10-11 15:54:10,129 INFO j.u.l.Logger [main] Site open
+2021-10-11 15:54:11,671 INFO j.u.l.Logger [main] Authorization path
+2021-10-11 15:54:23,358 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-11 15:54:48,582 INFO j.u.l.Logger [main] Driver up
+2021-10-11 15:55:08,410 INFO j.u.l.Logger [main] Site open
+2021-10-11 15:55:09,876 INFO j.u.l.Logger [main] Authorization path
+2021-10-11 15:55:22,689 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-11 16:04:47,827 INFO j.u.l.Logger [main] Driver up
+2021-10-11 16:05:01,577 INFO j.u.l.Logger [main] Site open
+2021-10-11 16:05:03,103 INFO j.u.l.Logger [main] Authorization path
+2021-10-11 16:05:13,522 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-11 16:14:54,710 INFO j.u.l.Logger [main] Driver up
+2021-10-11 16:14:57,224 INFO j.u.l.Logger [main] Site open
+2021-10-11 16:14:58,124 INFO j.u.l.Logger [main] Authorization path
+2021-10-11 16:15:02,487 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-11 16:16:47,918 INFO j.u.l.Logger [main] Driver up
+2021-10-11 16:16:50,595 INFO j.u.l.Logger [main] Site open
+2021-10-11 16:16:51,494 INFO j.u.l.Logger [main] Authorization path
+2021-10-11 16:16:55,734 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-11 16:17:48,161 INFO j.u.l.Logger [main] Driver up
+2021-10-11 16:17:50,605 INFO j.u.l.Logger [main] Site open
+2021-10-11 16:17:51,472 INFO j.u.l.Logger [main] Authorization path
+2021-10-11 16:17:55,355 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-11 16:18:27,830 INFO j.u.l.Logger [main] Driver up
+2021-10-11 16:18:30,387 INFO j.u.l.Logger [main] Site open
+2021-10-11 16:18:31,278 INFO j.u.l.Logger [main] Authorization path
+2021-10-11 16:18:34,847 INFO j.u.l.Logger [main] Paragraph My open
+2021-10-11 16:19:00,349 INFO j.u.l.Logger [main] Driver up
+2021-10-11 16:19:02,882 INFO j.u.l.Logger [main] Site open
+2021-10-11 16:19:03,831 INFO j.u.l.Logger [main] Authorization path
+2021-10-11 16:19:07,410 INFO j.u.l.Logger [main] Paragraph My open
