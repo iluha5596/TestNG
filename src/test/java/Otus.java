@@ -120,6 +120,11 @@ public class Otus {
         Assert.assertEquals("Россия", driver.findElement(By.cssSelector(".js-lk-cv-dependent-master > label:nth-child(1) > div:nth-child(2)")).getText());
   //      Assert.assertEquals("Москва", driver.findElement(By.xpath("//input[@data-title=\"Город\"]/..//div")).getText());
         Assert.assertEquals("Элементарный уровень (Elementary)", driver.findElement(By.xpath("//input[@data-title=\"Уровень знания английского языка\"]/..//div")).getText());
+       //Проверка чекбокса
+        if (driver.findElement(By.xpath("//input[@title=\"Полный день\"]//..")).isSelected() )
+        {
+            logger.info("Неверный данные в чекбоксе");
+        }
         logger.info("Данные заполнены верно");
     }
 
