@@ -4,7 +4,7 @@
 .git/
 /multiInst
 /-
-
+logs
 # Created by https://www.toptal.com/developers/gitignore/api/windows,maven,gradle,intellij
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,maven,gradle,intellij
 
